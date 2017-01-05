@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EAFB34D4-FE46-45CA-A332-E446DE2C9177}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cecs475.War", "src\War\Cecs475.War.xproj", "{185DF089-5A27-44D9-903F-4748671D21DC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B311A308-676D-445D-B894-C94A93FCE010}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Cecs475.War.Test", "test\Cecs475.War.Test\Cecs475.War.Test.xproj", "{20E3FCF3-1521-4325-BA97-B8D0918D1F99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72887F6F-7A0E-40E2-A0CC-849127B19D12}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{185DF089-5A27-44D9-903F-4748671D21DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{185DF089-5A27-44D9-903F-4748671D21DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{185DF089-5A27-44D9-903F-4748671D21DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{185DF089-5A27-44D9-903F-4748671D21DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20E3FCF3-1521-4325-BA97-B8D0918D1F99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20E3FCF3-1521-4325-BA97-B8D0918D1F99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20E3FCF3-1521-4325-BA97-B8D0918D1F99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20E3FCF3-1521-4325-BA97-B8D0918D1F99}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{185DF089-5A27-44D9-903F-4748671D21DC} = {EAFB34D4-FE46-45CA-A332-E446DE2C9177}
+		{20E3FCF3-1521-4325-BA97-B8D0918D1F99} = {B311A308-676D-445D-B894-C94A93FCE010}
+	EndGlobalSection
+EndGlobal
