@@ -48,7 +48,7 @@ namespace Cecs475.War {
 			// For simplicity, we will abuse the fact that we know that CardSuit and CardKind are really just integers.
 			for (int suit = 0; suit < 4; suit++) {
 				for (int kind = 2; kind <= 14; kind++) {
-					mCards[i] = new Card((Card.CardKind)kind, Card.CardSuit.Hearts); // the cast satisfies the type system.
+					mCards[i] = new Card((Card.CardKind)kind, (Card.CardSuit)suit); // the cast satisfies the type system.
 					i++;
 				}
 			}
